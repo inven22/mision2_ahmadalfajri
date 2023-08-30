@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css"> 
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="text-center mb-4">Food Shop</h2>
+
+        <div class="menu-list d-flex flex-wrap">
+          <div class="card">
+            <img src="image/gambar.png" class="card-img-top" alt="Nasi Goreng">
+            <div class="card-body">
+              <h5 class="card-title">Nasi Goreng</h5>
+              <p class="card-price">Harga : Rp 25,000</p>
+              <div class="menu-info">
+                <button class="btn btn-danger remove-button">-</button>
+                <span class="quantity">0</span>
+                <button class="btn btn-success add-button">+</button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tambahkan card-menu lainnya -->
+          <div class="card">
+            <img src="image/gambar.png" class="card-img-top" alt="Ayam Goreng">
+            <div class="card-body">
+              <h5 class="card-title">Ayam Goreng</h5>
+              <p class="card-price">Harga : Rp 30,000</p>
+              <div class="menu-info">
+                <button class="btn btn-danger remove-button">-</button>
+                <span class="quantity">0</span>
+                <button class="btn btn-success add-button">+</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="image/gambar.png" class="card-img-top" alt="Mie Goreng">
+            <div class="card-body">
+              <h5 class="card-title">Mie Goreng</h5>
+              <p class="card-price">Harga : Rp 22,000</p>
+              <div class="menu-info">
+                <button class="btn btn-danger remove-button">-</button>
+                <span class="quantity">0</span>
+                <button class="btn btn-success add-button">+</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="image/gambar.png" class="card-img-top" alt="Sate Ayam">
+            <div class="card-body">
+              <h5 class="card-title">Sate Ayam</h5>
+              <p class="card-price">Harga : Rp 18,000</p>
+              <div class="menu-info">
+                <button class="btn btn-danger remove-button">-</button>
+                <span class="quantity">0</span>
+                <button class="btn btn-success add-button">+</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="image/gambar.png" class="card-img-top" alt="Bakso">
+            <div class="card-body">
+              <h5 class="card-title">Bakso</h5>
+              <p class="card-price">Harga : Rp 15,000</p>
+              <div class="menu-info">
+                <button class="btn btn-danger remove-button">-</button>
+                <span class="quantity">0</span>
+                <button class="btn btn-success add-button">+</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="image/gambar.png" class="card-img-top" alt="Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-price">Harga : Rp 35,000</p>
+              <div class="menu-info">
+                <button class="btn btn-danger remove-button">-</button>
+                <span class="quantity">0</span>
+                <button class="btn btn-success add-button">+</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="col-md-5">
+        <div class="cart-container">
+          <br>
+          <h3 class="cart-title">Cart</h3>
+          <div class="cart-items">
+            <!-- Keranjang akan diperbarui secara otomatis di sini -->
+          </div>
+          <div class="cart-summary">
+            <p>Total item : <span class="total-items">0</span></p>
+            <p>Harga total: <span class="total-price">Rp 0.00</span></p>
+          </div>
+          <button class="btn btn-primary order-button">Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <div id="chart"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+  /* Gaya CSS untuk container utama */
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  /* Gaya CSS untuk container menu */
+  .menu-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  /* Gaya CSS untuk daftar menu */
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  /* Gaya CSS untuk card menu */
+  .card {
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+  }
+
+  .card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-img-top:hover {
+    transform: scale(1.05);
+  }
+
+  .card-title {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .card-price {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .menu-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .quantity {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+
+  .add-button,
+  .remove-button {
+    font-size: 1rem;
+  }
+
+  /* Gaya CSS untuk container keranjang */
+  .cart-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    width: 100%;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .cart-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .cart-item {
+    margin-bottom: 10px;
+  }
+
+  .cart-item-name {
+    font-size: 0.9rem;
+  }
+
+  .cart-summary {
+    margin-top: 20px;
+  }
+
+  /* Gaya CSS untuk tombol order */
+  .order-button {
+    width: 100%;
+    margin-top: 10px;
+  }
